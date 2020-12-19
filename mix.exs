@@ -24,7 +24,7 @@ defmodule Cloudini.Mixfile do
 
   defp deps do
     [
-      {:poison, "~> 2.0"},
+      {:poison, "~> 3.0"},
       {:ex_doc, ">= 0.0.0", only: :dev},
       {:exvcr, "~> 0.8", only: [:test]}
     ]
